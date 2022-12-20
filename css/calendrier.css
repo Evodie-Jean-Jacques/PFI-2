@@ -1,0 +1,120 @@
+.title{
+    font-size: 60px;
+    text-align: center;
+    margin: 10px;
+    font-family: anton;
+    letter-spacing: 20px;
+    color: black;
+}
+.calendarContainer{
+    border: 0px solid black;
+    
+}
+.months{
+    display: grid;
+    grid: 0px;
+    grid-template-areas: 
+    "a a a a a a a    b b b b b b b    c c c c c c c    d d d d d d d"
+    "a a a a a a a    b b b b b b b    c c c c c c c    d d d d d d d"
+    "a a a a a a a    b b b b b b b    c c c c c c c    d d d d d d d"
+    "a a a a a a a    b b b b b b b    c c c c c c c    d d d d d d d"
+    "a a a a a a a    b b b b b b b    c c c c c c c    d d d d d d d"
+    "a a a a a a a    b b b b b b b    c c c c c c c    d d d d d d d"
+    "a a a a a a a    b b b b b b b    c c c c c c c    d d d d d d d"
+
+    "e e e e e e e    f f f f f f f    g g g g g g g    h h h h h h h"
+    "e e e e e e e    f f f f f f f    g g g g g g g    h h h h h h h"
+    "e e e e e e e    f f f f f f f    g g g g g g g    h h h h h h h"
+    "e e e e e e e    f f f f f f f    g g g g g g g    h h h h h h h"
+    "e e e e e e e    f f f f f f f    g g g g g g g    h h h h h h h"
+    "e e e e e e e    f f f f f f f    g g g g g g g    h h h h h h h"
+    "e e e e e e e    f f f f f f f    g g g g g g g    h h h h h h h"
+
+    "i i i i i i i    j j j j j j j    k k k k k k k    l l l l l l l"
+    "i i i i i i i    j j j j j j j    k k k k k k k    l l l l l l l"
+    "i i i i i i i    j j j j j j j    k k k k k k k    l l l l l l l"
+    "i i i i i i i    j j j j j j j    k k k k k k k    l l l l l l l"
+    "i i i i i i i    j j j j j j j    k k k k k k k    l l l l l l l"
+    "i i i i i i i    j j j j j j j    k k k k k k k    l l l l l l l"
+    "i i i i i i i    j j j j j j j    k k k k k k k    l l l l l l l"
+}
+table{
+    margin: 10px;
+    border: 0px solid;
+}
+th{
+    font-size: 40px;
+    font-family: Anton;
+    letter-spacing: 15px;
+    text-align: center;
+}
+td{
+
+    font-size: 15px;
+    text-align: center;
+}
+.table1{
+    grid-area: a;
+}
+.table2{
+    grid-area: b;
+
+}
+.table3{
+    grid-area: c;
+}
+.table4{
+    grid-area: d;
+}
+.table5{
+    grid-area: e;
+}
+.table6{
+    grid-area: f;
+}
+.table7{
+    grid-area: g;
+}
+.table8{
+    grid-area: h;
+}
+.table9{
+    grid-area: i;
+}
+.table10{
+    grid-area: j;
+}
+.table11{
+    grid-area: k;
+}
+.table12{
+    grid-area: l;
+}
+.daysOfWeek{
+    text-align: center;
+    font-family: Anton;
+    margin: 10px;
+    color: rgb(168, 9, 57);
+
+}
+.holidays{
+    font-weight: bold;
+    
+}
+.holidays:hover{
+    color: white;
+    background-color: rgb(255, 22, 92);
+    border-radius: 50%;
+
+}
+.dates{
+    font-weight: bold;
+}
+.dates:hover{
+    color: white;
+    background-color: rgba(87, 35, 0, 0.664);
+    border-radius: 50%;
+}
+
+
+

@@ -1,0 +1,76 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.menus {
+    position: fixed;
+    top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;
+    background-image: linear-gradient(180deg, rgb(255, 22, 92), rgba(3, 3, 3, 0.63));
+    color: white;
+    height: 50px;
+    width: calc(min(100%, 1400px));
+    border-radius: 60px;
+}
+
+.icon {
+    font-size:28px !important;
+    cursor: pointer;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(134, 60, 60);
+    -webkit-text-fill-color: rgb(196, 196, 196);
+}
+
+.menuText {
+    font-size: 5px;
+    cursor: pointer;
+    display: none;
+    font-family: Sono;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 35px auto;
+    color: white;
+    align-items: center;
+    text-decoration: none;
+}
+
+.menu:hover,
+.menu:hover .icon {
+    color: rgb(216, 10, 147);
+    -webkit-text-fill-color:  rgb(255, 121, 161);
+}
+
+.menu:active,
+.menu:active .icon {
+    color: rgb(255, 10, 10);
+    -webkit-text-fill-color: rgb(255, 10, 10);
+}
+
+.selected,
+.selected .icon {
+    color: rgb(80, 1, 25);
+    -webkit-text-fill-color: rgb(80, 1, 25);
+}
+
+.menuBuffer {
+    height: 50px;
+}
+
+.favicon{
+   height: 25px;
+   width: 25px;
+   border-radius: 50%;
+}
+
+@media screen and (min-width:800px) {
+    .menuText {
+        display: flex;
+    }
+}
